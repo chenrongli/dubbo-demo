@@ -25,8 +25,12 @@ public class ConsumerMain
     {
         SpringApplication.run(ConsumerMain.class, args);
     }
-    
-    
+
+
+    /**
+     * 1
+     * @return
+     */
     @RequestMapping("/hello")
     public String hello(){
         
