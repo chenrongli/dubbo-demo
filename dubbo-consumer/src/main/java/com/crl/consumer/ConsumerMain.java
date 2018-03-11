@@ -32,8 +32,6 @@ public class ConsumerMain
         
         return demoService.hello("hahha");
 
-
-        
     }
     
 }
