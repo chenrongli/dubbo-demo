@@ -49,7 +49,11 @@ public class ProviderMain
         CountDownLatch closeLatch = ctx.getBean(CountDownLatch.class);
         closeLatch.await();
     }
-    
+
+    /**
+     * 2
+     * @return
+     */
     @RequestMapping("/test")
     public String test(){
         
